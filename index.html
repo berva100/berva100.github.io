@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>víz-gáz-fűtés szerelés EGER</title>
+
+<style>
+ @import url('https://fonts.googleapis.com/css?family=Work+Sans:300&subset=latin-ext');
+ html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    color: yellow ;
+    font-family: arial;
+   }
+   .pirosvonal {
+   border: 1px solid red;
+   }
+  
+  .kozepso {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+    font-size: 50px;
+    }
+  .fejlec {
+    display: flex;
+    justify-content: center;
+        
+   } 
+  
+  .lablec {
+    display: flex;
+    justify-content: center;
+  }
+  .hatterkep {
+  background-image: url("hatterkep.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .hattervideo {
+    position: absolute;
+    z-index: -100;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50% -50%)   
+  }
+  .fejleclink {
+         
+         background-color: rgba(0, 0, 0, .7);
+         padding: 10px;
+         margin: 10px;
+         width: 100px;
+         display: inline-block;
+         text-align: center;
+         color: white;
+        font-size: 10px;
+        text-decoration: none;
+                
+  }
+  .oriasbetu {
+         font-family: 'Work sans';
+         font-size: 70px;
+         text-align: center;
+  }
+  .gombocska {
+    background-color: rgba(0, 0, 0, .7);
+         padding: 10px;
+         margin: 10px;
+         width: 150px;
+         display: inline-block;
+         text-align: center;
+         color: white;
+        font-size: 20px;
+        text-decoration: none;
+  }
+  .gombdoboz {
+         text-align: center;
+  }
+</style>
+
+</head>
+<body class="hatterkep">
+<video class="hattervideo" autoplay loop muted poszter="hatterkep.jpg" src=hattervideo.mp4>
+</video> 
+ <div class="fejlec pirosvonal">
+      <a class="fejleclink" href="magunkrol.html">MAGUNKRÓL</a>
+      <a class="fejleclink" href="arajanlat.html">ÁRAJÁNLAT</a>
+      <a class="fejleclink" href="kapcsolat.html">KAPCSOLAT</a>
+      <a class="fejleclink" href="kepgaleria.html">KÉPGALÉRIA</a>
+    </div>
+    <div class="kozepso">
+	<div class="oriasbetu">VÍZ-GÁZ-FŰTÉS SZERELÉS</div>
+	<div class="gombdoboz">
+         <a class="gombocska" href="vizszereles.html">VÍZSZERELÉS</a>
+         <a class="gombocska" href="gazszereles.html">GÁZSZERELÉS</a>
+         <a class="gombocska" href="futesszereles.html">FŰTÉSSZERELÉS</a>
+        </div>
+    </div>
+    <div class="lablec pirosvonal">GYORS MEGBÍZHATÓ MUNKA &copy;KOVÁCS  (gabesz50@gmail.com ) 1990-<span id="year">blabla</span></div>
+   <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("year").innerHTML = n;
+    </script>
+    </div>
+</body>
+</html>
